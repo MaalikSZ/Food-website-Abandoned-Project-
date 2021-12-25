@@ -1,0 +1,22 @@
+.modal{
+    position: absolute;
+    top: 10vh;
+    width: fit-content;
+    padding: 10px;
+    background-color: #363131;
+    border-radius: .5rem;
+    color: white;
+}
+.title{
+    background-color: rgb(46, 36, 36);
+    border-radius: .25rem;
+    padding: .25rem .5rem;
+    text-align: center;
+}
+.buttons-control{
+    display: flex;
+    justify-content: end;
+}
+.total-amount{
+    font-size: 1.5rem;
+}

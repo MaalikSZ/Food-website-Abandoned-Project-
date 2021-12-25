@@ -1,0 +1,21 @@
+.opinion{
+    margin-top: 1rem;
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    box-shadow: inset 0 0 10px #000000;
+}
+.name{
+grid-row: 2 / 3;
+text-align: center;
+}
+.avatar img{
+    width: 64px;
+    border-radius: 50%;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
